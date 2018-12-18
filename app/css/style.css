@@ -1,0 +1,82 @@
+header {
+  height: 91px;
+  line-height: 91px;
+  background-color: #0c3c60;
+  position: fixed;
+  width: 100%;
+  z-index: 99; }
+  header .navbar {
+    padding: 0; }
+  header a.navbar-brand {
+    color: #fff;
+    padding: 0;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif; }
+    header a.navbar-brand span {
+      color: #7DCADA; }
+  header ul.navbar-nav a.nav-link {
+    color: #fff;
+    padding: 0;
+    font-size: 14px;
+    font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    margin-left: 20px;
+    -webkit-transition: color 0.3s;
+    transition: color 0.3s; }
+    header ul.navbar-nav a.nav-link:hover, header ul.navbar-nav a.nav-link:focus {
+      color: #7DCADA;
+      -webkit-transition: color 0.3s;
+      transition: color 0.3s; }
+
+section#jumbo {
+  height: 100vh;
+  position: relative;
+  z-index: -1; }
+  section#jumbo .bannerText {
+    background-color: rgba(255, 255, 255, 0.7);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: absolute;
+    width: 100%;
+    bottom: 0; }
+    section#jumbo .bannerText p {
+      color: #0c3c60;
+      font-family: Arial, Helvetica, sans-serif;
+      padding: 0;
+      margin: 0; }
+      section#jumbo .bannerText p:first-child {
+        font-size: 18px; }
+      section#jumbo .bannerText p:last-child {
+        font-size: 60px; }
+
+section#blocks {
+  padding: 80px 0;
+  background-color: #fff;
+  position: relative;
+  z-index: 99; }
+
+.blockItem {
+  background-color: #0c3c60;
+  padding: 30px 40px; }
+  .blockItem h3 {
+    font-size: 24px;
+    color: #D1E0EB;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px; }
+  .blockItem p {
+    font-size: 14px;
+    font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    color: #fff; }
+  .blockItem a {
+    background-color: #6ea4ca;
+    font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    color: #fff;
+    -webkit-transition: color 0.3s;
+    transition: color 0.3s;
+    padding: 10px 20px;
+    margin-top: 40px;
+    text-decoration: none; }
+    .blockItem a:hover, .blockItem a:focus {
+      color: #0C3C60;
+      -webkit-transition: color 0.3s;
+      transition: color 0.3s;
+      text-decoration: none; }
